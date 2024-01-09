@@ -12,11 +12,12 @@ Shader "Custom RP/Lit" {
 		
 		[Enum(UnityEngine.Rendering.BlendMode)] _SrcBlend ("Src Blend", Float) = 1
 		[Enum(UnityEngine.Rendering.BlendMode)] _DstBlend ("Dst Blend", Float) = 0
+		[Toggle(_PREMULTIPLY_ALPHA)] _PremulAlpha ("Premultiply Alpha", Float) = 0
 		[Enum(Off, 0, On, 1)] _ZWrite ("Z Write", Float) = 1
 	}
 	
-	SubShader {
-		
+	SubShader
+	{
 		Pass
 		{
 			Tags 
@@ -30,11 +31,34 @@ Shader "Custom RP/Lit" {
 			HLSLPROGRAM
 			#pragma target 3.5
 			#pragma shader_feature _CLIPPING
+			#pragma shader_feature _PREMULTIPLY_ALPHA
+			
 			#pragma multi_compile_instancing
 			#pragma vertex LitPassVertex
 			#pragma fragment LitPassFragment
 			#include "LitPass.hlsl"
 			ENDHLSL
 		}
+		
+		Pass 
+		{
+			Tags 
+			{
+				"LightMode" = "ShadowCaster"
+			}
+
+			ColorMask 0
+
+			HLSLPROGRAM
+			#pragma target 3.5
+			#pragma shader_feature _CLIPPING
+			#pragma multi_compile_instancing
+			#pragma vertex ShadowCasterPassVertex
+			#pragma fragment ShadowCasterPassFragment
+			#include "ShadowCasterPass.hlsl"
+			ENDHLSL
+		}
 	}
+	
+	CustomEditor "CustomShaderGUI"
 }
