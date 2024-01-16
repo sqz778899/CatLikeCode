@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31546a0e-8adc-4f6e-b9a9-805bfad4ff9d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/CustomRP/CustomRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/CustomRP.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CustomRP/Runtime/Lighting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/Runtime/Lighting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CatLikeCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CatLikeCode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CustomRP/Runtime/Shadows.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/Runtime/Shadows.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Common.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Common.hlsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Light.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Light.hlsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Lighting.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Lighting.hlsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Surface.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Surface.hlsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CustomRP/Shaders/LitPass.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/Shaders/LitPass.hlsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Shadows.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Shadows.hlsl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,34 +32,34 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@14.0.8/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2ahJoPhrrz46k49yJqDENetN2PS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Lilith Games\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Lilith Games\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\Lilith Games\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Lilith Games\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Lilith Games\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Lilith Games\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="F:\ZG_P4\tools\unity\win64\Unity.exe" />
@@ -110,6 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704765052261</updated>
       <workItem from="1704765053383" duration="32523000" />
+      <workItem from="1705377923617" duration="5581000" />
     </task>
     <task id="LOCAL-00001" summary="Fix">
       <option name="closed" value="true" />
