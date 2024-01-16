@@ -6,11 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="31546a0e-8adc-4f6e-b9a9-805bfad4ff9d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CatLikeCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CatLikeCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomRP/CustomRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/CustomRP.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CustomRP/Runtime/Shadows.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/Runtime/Shadows.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Common.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Common.hlsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Light.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Light.hlsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Lighting.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Lighting.hlsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Shadows.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Shadows.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Surface.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Surface.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomRP/Shaders/LitPass.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomRP/Shaders/LitPass.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +23,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/bf/1fd6e5c5/CameraClearFlags.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/URPStudy/CatLikeCode/Assets/CustomRP/CustomRP.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/URPStudy/CatLikeCode/Assets/CustomRP/ShaderLibrary/BRDF.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/da/a3a5057b/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/f9/0b036b8f/Light.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomRP/ShaderLibrary/Shadows.hlsl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PerObjectMaterialProperties.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TestMono.cs" root0="FORCE_HIGHLIGHTING" />
